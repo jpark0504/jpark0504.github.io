@@ -11,9 +11,9 @@ const Home = () => {
                     Hi, I'm Justin!
                 </h2>
                 <p className='text-gray-500 py-4 max-w-md'>
-                    Currently, I love to work on backend and 
-                    database related technologies. The languages I am
-                    most familiar with are Java, Python, and C/C++.
+                    I love to work on backend and database related technologies. 
+                    I'm currently working on learning some more frontend based frameworks.
+                    The languages I am most familiar with are Java, Python, and C/C++.
                 </p>
 
                 <div>
