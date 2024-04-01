@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3af57577.css",
-    "main.js": "/static/js/main.fa83f481.js",
+    "main.js": "/static/js/main.f5ae0fe3.js",
     "static/js/453.52ce4463.chunk.js": "/static/js/453.52ce4463.chunk.js",
     "static/media/Justin_Park.png": "/static/media/Justin_Park.4e0bb8e2fee38e9637a8.png",
     "static/media/Games.png": "/static/media/Games.b369fbaab1e48a33eed8.png",
@@ -20,11 +20,11 @@
     "static/media/python.png": "/static/media/python.433a00a09a48ba5f8f58.png",
     "index.html": "/index.html",
     "main.3af57577.css.map": "/static/css/main.3af57577.css.map",
-    "main.fa83f481.js.map": "/static/js/main.fa83f481.js.map",
+    "main.f5ae0fe3.js.map": "/static/js/main.f5ae0fe3.js.map",
     "453.52ce4463.chunk.js.map": "/static/js/453.52ce4463.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3af57577.css",
-    "static/js/main.fa83f481.js"
+    "static/js/main.f5ae0fe3.js"
   ]
 }
