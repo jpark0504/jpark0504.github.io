@@ -3,8 +3,8 @@ import Home from "./components/Home"
 import SocialLinks from "./components/SocialLinks";
 import About from "./components/About";
 import Projects from "./components/Projects";
-import Knowledge from "./components/Knowledge";
-import Experience from "./components/Experience";
+import Langtech from "./components/LangTech";
+import Experience from "./components/Experience"
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <NavBar />
       <Home />
       <About />
-      <Knowledge />
+      <Langtech />
       <Experience />
       <Projects />
 

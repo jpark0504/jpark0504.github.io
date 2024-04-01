@@ -1,5 +1,6 @@
 import React from 'react';
 import games from "../assets/Games.png";
+import website from "../assets/website.png"
 
 const Projects = () => {
     const projects = [
@@ -9,6 +10,12 @@ const Projects = () => {
             codeLink: 'https://github.com/jpark0504/Games',
             demoLink: ''
         },
+        {
+            id: 2,
+            src: website,
+            codeLink: 'https://github.com/jpark0504/jpark0504.github.io ',
+            demoLink: ''
+        }
         // Add more project objects with their respective image source, code link, and demo link
     ];
 
