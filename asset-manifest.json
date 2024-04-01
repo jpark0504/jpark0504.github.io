@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.3af57577.css",
+    "main.js": "/react-gh-pages/static/js/main.5e4877b0.js",
+    "static/js/453.52ce4463.chunk.js": "/react-gh-pages/static/js/453.52ce4463.chunk.js",
+    "static/media/Justin_Park.png": "/react-gh-pages/static/media/Justin_Park.4e0bb8e2fee38e9637a8.png",
+    "static/media/Games.png": "/react-gh-pages/static/media/Games.b369fbaab1e48a33eed8.png",
+    "static/media/website.png": "/react-gh-pages/static/media/website.0a9fe36f083957ccf528.png",
+    "static/media/react.png": "/react-gh-pages/static/media/react.1d385d14e08b2ed7362a.png",
+    "static/media/uvaengineering.png": "/react-gh-pages/static/media/uvaengineering.ccd6b5de57b99937080b.png",
+    "static/media/javascript.png": "/react-gh-pages/static/media/javascript.535cd9b02f3e33e8cd71.png",
+    "static/media/caci.png": "/react-gh-pages/static/media/caci.cee55d700d6b09bf2c42.png",
+    "static/media/cpp.png": "/react-gh-pages/static/media/cpp.dee46d9f0d197b0d6987.png",
+    "static/media/html.png": "/react-gh-pages/static/media/html.31c3aa356cb5e075cffc.png",
+    "static/media/css.png": "/react-gh-pages/static/media/css.6395c008c558e23d5786.png",
+    "static/media/django.png": "/react-gh-pages/static/media/django.4c399895f677cd3bfbc8.png",
+    "static/media/c.png": "/react-gh-pages/static/media/c.bbbbbabc8c191bfb99bf.png",
+    "static/media/tailwind.png": "/react-gh-pages/static/media/tailwind.06f04cb0fd1343783886.png",
+    "static/media/java.png": "/react-gh-pages/static/media/java.f5dd86c3ef6ef3f85acf.png",
+    "static/media/python.png": "/react-gh-pages/static/media/python.433a00a09a48ba5f8f58.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.3af57577.css.map": "/react-gh-pages/static/css/main.3af57577.css.map",
+    "main.5e4877b0.js.map": "/react-gh-pages/static/js/main.5e4877b0.js.map",
+    "453.52ce4463.chunk.js.map": "/react-gh-pages/static/js/453.52ce4463.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3af57577.css",
+    "static/js/main.5e4877b0.js"
+  ]
+}
