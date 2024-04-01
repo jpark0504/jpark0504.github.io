@@ -9,7 +9,10 @@ const experiences = [
         position: 'Undergraduate Teaching Assistant',
         startDate: 'Aug 2023',
         endDate: 'Present',
-        description: ['Work as a UTA for both the Computer Science and Applied Mathematics Departments', 'Assist stu'],
+        description: ['Work as a UTA for both the Computer Science and Applied Mathematics Departments', 
+        'Assist students through office hours and in-class instruction',
+        'Create rubrics and grade student work and exams',
+        'Taught students during lab and provided advice on possible approaches to code'],
         logo: uvalogo,
         style: 'shadow-orange-500'
     },
