@@ -1,44 +1,58 @@
 import React from 'react'
-import { FaCircleArrowRight } from "react-icons/fa6";
+import { useState } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import SelfImage from '../assets/Justin_Park.png';
-import { Link } from 'react-scroll';
+import "./Home.css"
 
 const Home = () => {
+  const [secondAnimationStart, setSecondAnimationStart] = useState(false);
   return (
-    <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
-        <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row text-white'>
-            <div className='flex flex-col justify-center h-full'>
-                <h2 className='text-2xl sm:text-4xl font-bold text-white'>
+    <home>
+      <div className="title">
+        <h1 className="text-2xl sm:text-4xl font-bold border-b-4 border-gray-500">Hi, my name is Justin!</h1>
+      </div>
+
+
+      <section className="container flex flex-col md:flex-row justify-center mx-auto h-screen">
+        <div className="center one flex-1 mb-8 md:mb-0">
+          <div className="animation-container">
+            <TypeAnimation
+              sequence={[
+                'I\'m currently a 4th year CS major, with a minor in Applied Mathematics. I love to work on backend and database related technologies. I\'m currently working on learning some more fullstack technologies & frameworks. The languages I am most familiar with are Java, Python, and C++.',
+                1000,
+                () => setSecondAnimationStart(true),
+              ]}
+              speed={100}
+              repeat={Infinity}
+            />
+
+            {secondAnimationStart && (
+              <>
+                <hr className="animation-separator my-4" />
                 <TypeAnimation
-                sequence={[
-                    'Hi, my name is Justin!',
+                  sequence={[
+                    '\nOutside of coursework, I like to involve myself with music at the University of Virginia. I\'m currently a member of the Charlottesville Symphony and UVA Chamber Ensembles, playing the viola. I act as a student representative in the Charlottesville Symphony, and also work as an Undergraduate Teaching Assistant for the CS & Applied Mathematics Departments, assisting with CS 2130: Computer Systems & Organization, and APMA 3120: Statistics.',
                     1000,
-                ]}
-                speed={40}
-                repeat={Infinity}
+                  ]}
+                  speed={100}
+                  repeat={Infinity}
                 />
-                </h2>
-                <p className='text-gray-500 pr-5 py-5 max-w-md'>
-                    This is my personal website, feel free to scroll through to 
-                    see my background!
-                </p>
-
-                <div>
-                    <Link to="experience" smooth duration={500} offset={-20} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
-                        Experience 
-                        <span className='group-hover:rotate-90 duration-100'>
-                            <FaCircleArrowRight size={18} className='ml-1'/>
-                        </span>
-                    </Link>
-                </div>
-            </div>
-            <div>
-                <img src={SelfImage} alt="my profile" className='rounded-2xl mx-auto w-2/3 md:w-full'></img>
-            </div>
+              </>
+            )}
+          </div>
         </div>
-    </div>
-  )
-}
 
-export default Home
+        <div className="two center">
+          <img
+            src={SelfImage}
+            alt="my profile"
+            className="rounded-2xl mx-auto w-2/3 md:w-full"
+          />
+        </div>
+      </section>
+
+    </home>
+  );
+}
+  
+export default Home;  

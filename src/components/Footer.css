@@ -1,0 +1,45 @@
+.footer {
+    position: fixed;
+    padding-bottom: 1rem;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+.footer-bottom {
+    margin-top: 1rem;
+    align-items: center;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    color: white;
+    font-size: 1.2rem;
+    margin-top:auto;
+}
+
+.contact-label {
+    margin-right: 1rem;
+}
+
+.contact-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.contact-link {
+    color: white;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.contact-link:hover {
+    transform: scale(1.2);
+    color: blue;
+}

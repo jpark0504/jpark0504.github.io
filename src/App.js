@@ -1,23 +1,23 @@
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import NavBar from "./components/NavBar"
 import Home from "./components/Home"
-import SocialLinks from "./components/SocialLinks";
-import About from "./components/About";
+import Footer from "./components/Footer";
 import Projects from "./components/Projects";
-import Langtech from "./components/LangTech";
+import TechStack from "./components/TechStack";
 import Experience from "./components/Experience"
 
 function App() {
   return (
-    <div>
+    <Router>
       <NavBar />
-      <Home />
-      <About />
-      <Langtech />
-      <Experience />
-      <Projects />
-
-      <SocialLinks />
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/technologies" element={<TechStack/>} />
+        <Route path="/projects" element={<Projects/>} />
+        <Route path="/experience" element={<Experience/>} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 }
 
