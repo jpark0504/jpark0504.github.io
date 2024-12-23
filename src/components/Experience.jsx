@@ -96,7 +96,7 @@ const Experience = () => {
             <div className="content flex flex-col w-full h-screen">
                 {experiences.map(({ id, company, position, startDate, endDate, description, logo, style }) => (
                     <div key={id} className={`card ${style} mt-4 mb-4 p-4 rounded shadow-lg`}>
-                        <div className="header flex items-center justify-between">
+                        <div className="header flex flex-wrap items-center justify-between">
                             <div className="info flex items-center">
                                 <img src={logo} alt={`${company} logo`} className="w-20 h-22 mr-4" />
                                 <div>
