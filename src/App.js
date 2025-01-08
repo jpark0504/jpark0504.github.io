@@ -4,7 +4,8 @@ import Home from "./components/Home"
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import TechStack from "./components/TechStack";
-import Experience from "./components/Experience"
+import Experience from "./components/Experience";
+import './App.css';
 
 function App() {
   return (
