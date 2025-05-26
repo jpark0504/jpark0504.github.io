@@ -13,7 +13,7 @@ const Footer = () => {
                     <a href="https://www.linkedin.com/in/justin-j-park4/" target="_blank" rel="noopener noreferrer" className="contact-link">
                         <FaLinkedin size={30} />
                     </a>
-                    <a href="mailto:justinpark04@gmail.com" className="contact-link">
+                    <a href="mailto:jjpark.career@gmail.com" className="contact-link">
                         <HiOutlineMail size={30} />
                     </a>
                     <a href="https://github.com/jpark0504" target="_blank" rel="noopener noreferrer" className="contact-link">

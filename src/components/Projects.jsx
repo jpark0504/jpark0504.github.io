@@ -4,6 +4,7 @@ import website from "../assets/website.png"
 import aiproject from "../assets/aiproject.png";
 import mlproject from "../assets/mlproject.png";
 import honorsite from "../assets/HonorWebsite.png";
+import hoossick from "../assets/hoossick.png";
 import "./Projects.css";
 
 const Projects = () => {
@@ -37,6 +38,12 @@ const Projects = () => {
             src: website,
             codeLink: 'https://github.com/jpark0504/jpark0504.github.io ',
             demoLink: ''
+        },
+        {
+            id: 6,
+            src: hoossick,
+            codeLink: 'https://github.com/MatthewELucio/ContactTracingAppHooHacks',
+
         }
         // Add more project objects with their respective image source, code link, and demo link
     ];

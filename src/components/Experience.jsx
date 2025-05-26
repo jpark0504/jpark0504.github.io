@@ -8,9 +8,9 @@ const experiences = [
     {
         id: 1,
         company: 'Meta',
-        position: 'Incoming Software Engineer',
-        startDate: '',
-        endDate: '',
+        position: 'Software Engineer',
+        startDate: 'Aug 2025',
+        endDate: 'Present',
         description: [
             'Incoming New Grad SWE 2025'
         ],
@@ -22,9 +22,9 @@ const experiences = [
         company: 'UVA Engineering',
         position: 'Undergraduate Teaching Assistant',
         startDate: 'Aug 2023',
-        endDate: 'Present',
+        endDate: 'May 2025',
         description: [
-            'Current TA for CS 2130: Computer Systems & Organization and APMA 3120: Statistics',
+            'TA\'d for CS 2130: Computer Systems & Organization, APMA 3120: Statistics, and APMA 3100: Probability',
             'Hosted office hours and answered questions on Piazza regarding fundamentals of computer architecture and probability for around 10 hours per week',
             'Graded student work and exams, providing feedback for areas in need of improvement for over 500 students'
         ],
@@ -36,9 +36,11 @@ const experiences = [
         company: 'CACI',
         position: 'Software Engineer Intern',
         startDate: 'Dec 2024',
-        endDate: 'Present',
+        endDate: 'Jan 2025',
         description: [
-            'Working on an internal tool to help new developers with unfamiliar terminology',
+            'Worked on an internal tool to help new developers with unfamiliar terminology',
+            'Created backend logic for filtering and searching for key terms using Java',
+            'Developed template for front-end using AngularJS'
         ],
         logo: cacilogo,
         style: 'shadow-white',
