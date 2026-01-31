@@ -92,9 +92,6 @@ const ExperienceMap = () => {
     setSelectedExperienceId(experiences[nextIndex].id);
   };
 
-  const closePopup = () => {
-    setSelectedExperienceId(null);
-  };
 
   return (
     <div className="experience-map-container">
