@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.ff5691dd.css",
-    "main.js": "/static/js/main.82a210e9.js",
+    "main.js": "/static/js/main.d8c0433e.js",
     "static/js/453.52ce4463.chunk.js": "/static/js/453.52ce4463.chunk.js",
     "static/media/HonorWebsite.png": "/static/media/HonorWebsite.74fb4a53a3c07d756cb8.png",
     "static/media/wave.gif": "/static/media/wave.6e5636acee240b00b78c.gif",
+    "static/media/website.png": "/static/media/website.580f12ee60b1273c6fdb.png",
     "static/media/Games.png": "/static/media/Games.b369fbaab1e48a33eed8.png",
-    "static/media/website.png": "/static/media/website.0a9fe36f083957ccf528.png",
     "static/media/hoossick.png": "/static/media/hoossick.18cd0ce65e70189470c6.png",
     "static/media/meta.png": "/static/media/meta.9a841f3a45a3db62c3e6.png",
     "static/media/uvaengineering.png": "/static/media/uvaengineering.ccd6b5de57b99937080b.png",
@@ -15,11 +15,11 @@
     "static/media/mlproject.png": "/static/media/mlproject.472118366a272600c7f9.png",
     "index.html": "/index.html",
     "main.ff5691dd.css.map": "/static/css/main.ff5691dd.css.map",
-    "main.82a210e9.js.map": "/static/js/main.82a210e9.js.map",
+    "main.d8c0433e.js.map": "/static/js/main.d8c0433e.js.map",
     "453.52ce4463.chunk.js.map": "/static/js/453.52ce4463.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff5691dd.css",
-    "static/js/main.82a210e9.js"
+    "static/js/main.d8c0433e.js"
   ]
 }
