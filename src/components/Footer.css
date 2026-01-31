@@ -5,6 +5,7 @@
     text-align: center;
     padding-bottom: 1rem;
     margin-top: auto;
+    box-shadow: 0 -2px 6px #1877f2;
 }
 
 .footer-bottom {
@@ -40,5 +41,5 @@
 
 .contact-link:hover {
     transform: scale(1.2);
-    color: blue;
+    color: #1877f2;
 }

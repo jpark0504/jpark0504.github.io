@@ -12,10 +12,10 @@ const experiences = [
         startDate: 'Aug 2025',
         endDate: 'Present',
         description: [
-            'Incoming New Grad SWE 2025'
+            'FB In-Feed Recommendations (IFR) team, focused on infrastructure enhancements'
         ],
         logo: metalogo,
-        style: 'shadow-white',
+        style: 'shadow-blue-500',
     },
     {
         id: 2,
@@ -97,7 +97,7 @@ const Experience = () => {
 
             <div className="content flex flex-col w-full h-screen">
                 {experiences.map(({ id, company, position, startDate, endDate, description, logo, style }) => (
-                    <div key={id} className={`card ${style} mt-4 mb-4 p-4 rounded shadow-lg`}>
+                    <div key={id} className={`card ${style} mt-4 mb-4 p-4 rounded shadow-sm`}>
                         <div className="header flex flex-wrap items-center justify-between">
                             <div className="info flex items-center">
                                 <img src={logo} alt={`${company} logo`} className="w-20 h-22 mr-4" />

@@ -4,7 +4,7 @@ nav {
     align-items: center;
     background-color: black;
     position: relative;
-    box-shadow: red 0px 3px 3px -1px, rgba(0, 0, 0, 0.1) 0px 1px 3px -1px;
+    box-shadow: #1877f2 0px 3px 3px -1px, rgba(0, 0, 0, 0.1) 0px 1px 3px -1px;
     padding: 0.5rem 1rem;
 }
   
@@ -33,7 +33,7 @@ nav ul li a {
 nav ul li a:hover {
     transform: scale(1.10);
     text-decoration: underline;
-    color: red;
+    color: #1877f2;
 }
 
 nav .menu {

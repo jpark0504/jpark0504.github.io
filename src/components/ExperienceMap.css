@@ -4,8 +4,8 @@
   background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
   color: white;
   text-align: center;
-  border-top: 2px solid #5a61e9;
-  border-bottom: 2px solid #5a61e9;
+  border: 2px solid #64656d;
+  border-radius: 5px;
   box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.8), 0 10px 40px rgba(31, 37, 153, 0.15);
 }
 
@@ -73,7 +73,7 @@
 }
 
 .leaflet-control-attribution a {
-  color: #5a61e9 !important;
+  color: #1877f2 !important;
 }
 
 .custom-marker {
@@ -85,10 +85,10 @@
 .custom-marker .marker-dot {
   width: 16px;
   height: 16px;
-  background-color: #5a61e9;
+  background-color: #1877f2;
   border-radius: 50%;
-  border: 3px solid #5a61e9;
-  box-shadow: 0 0 10px #5a61e9;
+  border: 3px solid #1877f2;
+  box-shadow: 0 0 10px #1877f2;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -119,7 +119,7 @@
 
 .popup-content h4 {
   margin: 0 0 0.5rem 0;
-  color: #5a61e9;
+  color: #1877f2;
   font-size: 1rem;
 }
 
@@ -143,7 +143,7 @@
 }
 
 .popup-nav-btn {
-  background-color: #5a61e9;
+  background-color: #1877f2;
   color: white;
   border: none;
   padding: 0.35rem 0.5rem;
@@ -156,7 +156,7 @@
 }
 
 .popup-nav-btn:hover {
-  background-color: #5a61e9;
+  background-color: #1877f2;
   transform: scale(1.05);
 }
 
@@ -175,7 +175,7 @@
   margin: 2rem auto;
   padding: 2rem;
   background: linear-gradient(135deg, #1a1a1a 0%, #242424 100%);
-  border-left: 4px solid #5a61e9;
+  border-left: 4px solid #1877f2;
   border-radius: 8px;
   animation: slideUp 0.3s ease;
   position: relative;
@@ -198,7 +198,7 @@
   right: 1rem;
   background: transparent;
   border: none;
-  color: #5a61e9;
+  color: #1877f2;
   font-size: 1.5rem;
   cursor: pointer;
   padding: 0.5rem;
@@ -212,7 +212,7 @@
 .company-name {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #5a61e9;
+  color: #1877f2;
   margin: 0 0 0.5rem 0;
   padding-right: 2rem;
 }
@@ -247,7 +247,7 @@
 }
 
 .nav-btn {
-  background-color: #5a61e9;
+  background-color: #1877f2;
   color: white;
   border: none;
   padding: 0.75rem 1.25rem;
@@ -260,7 +260,7 @@
 }
 
 .nav-btn:hover {
-  background-color: #5a61e9;
+  background-color: #1877f2;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(90, 97, 233, 0.3);
 }

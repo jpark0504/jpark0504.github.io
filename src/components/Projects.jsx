@@ -66,7 +66,7 @@ const Projects = () => {
                             <div className='flex items-center justify-center'>
                                 {codeLink && (
                                     <a href={codeLink} target="_blank" rel="noopener noreferrer">
-                                        <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
+                                        <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 hover:text-blue-500 hover:underline'>Code</button>
                                     </a>
                                 )}
                                 {demoLink && (
