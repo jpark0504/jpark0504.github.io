@@ -2,7 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
+import { loadGtag } from './gtag';
 import reportWebVitals from "./reportWebVitals";
+
+// Load Google Analytics (reads REACT_APP_GA_ID from environment)
+loadGtag();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
