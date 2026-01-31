@@ -1,10 +1,10 @@
 .footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    position: relative;
     width: 100%;
     background-color: black;
     text-align: center;
+    padding-bottom: 1rem;
+    margin-top: auto;
 }
 
 .footer-bottom {
@@ -41,8 +41,4 @@
 .contact-link:hover {
     transform: scale(1.2);
     color: blue;
-}
-
-.footer {
-    margin-top: auto;
 }

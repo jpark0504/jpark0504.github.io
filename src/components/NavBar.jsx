@@ -7,9 +7,6 @@ const NavBar = () => {
 
     return (
         <nav>
-            <Link to="/" className="title">
-                Justin Park
-            </Link>
             <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
                 <span></span>
                 <span></span>
@@ -17,16 +14,13 @@ const NavBar = () => {
             </div>
             <ul className={menuOpen ? "open" : ""}>
                 <li>
-                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="/">HOME</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/technologies">Tech Stack</NavLink>
+                    <NavLink to="/experience">EXPERIENCE</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/experience">Experience</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/projects">Projects</NavLink>
+                    <NavLink to="/projects">PROJECTS</NavLink>
                 </li>
             </ul>
         </nav>

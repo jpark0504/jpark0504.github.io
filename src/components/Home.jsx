@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import SelfImage from '../assets/wave.gif';
+import ExperienceMap from './ExperienceMap';
 import "./Home.css"
 
 const Home = () => {
@@ -48,9 +49,9 @@ const Home = () => {
             )}
           </div>
         </div>
-
-        
       </section>
+
+      <ExperienceMap />
 
     </home>
   );
