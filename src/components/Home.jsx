@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <home>
       <div className="title">
-        <h1 className="text-2xl sm:text-4xl font-bold border-b-4 border-gray-500">Hi, my name is Justin!</h1>
+        <h1 className="text-2xl sm:text-4xl font-bold border-b-4 border-gray-500">Hi, I'm Justin!</h1>
       </div>
 
 
